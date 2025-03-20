@@ -42,15 +42,22 @@ input {
 }
 
 
-
 i {
    
     color: rgb(204, 78, 78);
     font-size: 16px;
    
 }
+button{
+    background-color: transparent;
+    border: 0px;
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
 
-
+li:hover button{
+    opacity: 1;
+}
 .todos-counter{
 
     color: grey;
